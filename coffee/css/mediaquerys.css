@@ -1,0 +1,54 @@
+@media screen and (min-width: 300px){
+   body{
+       background-color: red;
+   }
+   .Col{
+       width: 100%;
+   }
+   #news .Columna3{
+    width: 100%;
+    margin-left: 0%;
+}
+   nav{
+        display: none;
+   }
+   #menu{
+       display: block;
+   }
+}
+@media screen and (min-width: 768px){
+    body{
+        background-color: green;
+    }
+    nav{
+        display: block;
+   }
+   #menu{
+    display: none;
+}
+}
+@media screen and (min-width: 992px){
+    body{
+        background-color: whitesmoke;
+    }
+    .Col{
+        width: 50%;
+    }
+    #news .Columna3{
+        width: 25%;
+        margin-left: 8%;
+    }
+    nav{
+        display: block;
+   }
+   #menu{
+    display: none;
+}
+}
+@media print{
+    header{
+        display: none;
+
+    }
+   
+}
